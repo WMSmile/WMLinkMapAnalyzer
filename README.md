@@ -7,7 +7,7 @@
 第四步，可以导出相应的txt文件方便大家分析
 
 ![image](https://img-blog.csdn.net/20160105144046323?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
-![image](https://github.com/WMSmile/WMLinkMapAnalyzer/show.jpg)
+![image](https://github.com/WMSmile/WMLinkMapAnalyzer/show.jpeg)
 
 
 
