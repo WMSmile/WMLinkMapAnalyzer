@@ -50,7 +50,7 @@
         if (result == NSFileHandlingPanelOKButton) {
             NSURL*  theDoc = [[panel URLs] objectAtIndex:0];
             NSLog(@"%@", theDoc);
-            _fileTF.stringValue = [theDoc path];
+            _fileTF.stringValue = [NSString stringWithFormat:@"文件路径：%@",[theDoc path]] ;
             self.ChooseLinkMapFileURL = theDoc;
         }
     }];
