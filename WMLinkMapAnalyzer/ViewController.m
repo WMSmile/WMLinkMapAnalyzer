@@ -46,6 +46,9 @@
     [panel setResolvesAliases:NO];
     [panel setCanChooseFiles:YES];
     
+//    NSArray  * fileTypes = [NSArray arrayWithObjects:@"txt",nil];
+//    [panel setAllowedFileTypes:fileTypes];
+
     [panel beginWithCompletionHandler:^(NSInteger result){
         if (result == NSFileHandlingPanelOKButton) {
             NSURL*  theDoc = [[panel URLs] objectAtIndex:0];
